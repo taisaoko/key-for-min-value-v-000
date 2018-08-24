@@ -6,7 +6,6 @@ def key_for_min_value(name_hash)
     num
   end
   nums.sort!
-  nums[0]
   
   min_key = nil
   name_hash.map do |item, num|
